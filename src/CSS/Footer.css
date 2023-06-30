@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.footer-main {
+  background-color: #28282c;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+  align-items: start;
+}
+
+.footer-logo {
+  width: 85px;
+  height: 45px;
+}
+
+.footer-left-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.footer-left-div h3 {
+  font: normal bold 40px/1 "Montserrat";
+  color: #f2f2f2;
+  margin: 0;
+}
+
+.footer-content {
+  font: normal 20px/1 "Montserrat";
+  color: #ffffff;
+}
+
+.footer-right ul {
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-right ul li:hover {
+  color: yellow;
+}
+
+.footer-right h3 {
+  font: normal bold 24px/1 "Montserrat";
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.footer-right ul li {
+  color: #ffffff;
+  font: normal bold 20px/1 "Montserrat";
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.footer-right-two h3 {
+  font: normal bold 24px/1 "Montserrat";
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.newsletter-input {
+  padding: 12px 20px;
+  outline: none;
+  border: none;
+  width: 220px;
+}
+
+.newsletter-btn {
+  outline: none;
+  border: none;
+  padding: 12px 40px;
+  background: linear-gradient(#5d50f8, #6f0aef);
+  color: white;
+  font: normal bold 17px/1 "Montserrat";
+  cursor: pointer;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.newsletter-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Media Querry */
+
+@media (max-width: 1060px) {
+  .footer-main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 2rem 10px;
+  }
+
+  .footer-right-two {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+.gap_10 {
+  gap: 10px !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:550px) {
+  .gap_10 {
+    flex-direction: column;
+    gap: 0 !important;
+    justify-content: center;
+  }
+
+  .newsletter-btn {
+    transform: scale(.8);
+    left: -5rem;
+  }
+}
+
+
+.gap_10 {
+  gap: 10px !important;
+  display: flex;
+  justify-content: center;
+}

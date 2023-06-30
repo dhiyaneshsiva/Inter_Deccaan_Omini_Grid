@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.blog-main {
+  padding: 30px;
+  background-color: #242428;
+}
+
+
+.grid_Container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.hover_scale:hover {
+  transform: scale(1.03);
+}
+
+@media(max-width:1000px) {
+  .blog-main {
+    padding: 0px;
+  }
+}

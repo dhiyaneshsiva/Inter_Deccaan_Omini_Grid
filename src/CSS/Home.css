@@ -1,0 +1,611 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.home-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  background-color: #242428;
+  position: relative;
+}
+
+.home-img {
+  transition: 0.4s all ease;
+}
+
+.home-img:hover {
+  transform: scale(1);
+}
+
+.home-left img {
+  width: 300px;
+  height: 300px;
+}
+
+.home-top-content {
+  font: normal bold 26px/34px "Montserrat";
+  color: #ffff;
+}
+
+.home-btm-img {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  bottom: -4.8rem;
+  width: 110px;
+  height: 150px;
+}
+
+/* Home Second Section */
+.home-second {
+  background: linear-gradient(280deg, #5d50f8, #7210f0);
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.home-sub-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 6rem 0;
+  --color-range: 35%;
+  --background-color: rgba(128, 0, 128, var(--color-range));
+  /* background-image: linear-gradient(#5d50f8, #7210f0),
+    linear-gradient(#7210f0, #5d50f8); */
+  background: linear-gradient(100deg, #A364F5, #968DFA);
+}
+
+.home-sub-div img {
+  width: 80px;
+  height: 44px;
+}
+
+.home-sub-title {
+  font: normal bold 55px/1 "Montserrat";
+  color: white;
+  text-shadow: 5px 4px 1px #443BAB;
+}
+
+.home-two-img {
+  width: 800px;
+  margin-bottom: 4rem;
+  box-shadow: none !important;
+  transition: 0.4s all ease;
+}
+
+/* Home Third Section */
+.home-third-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 4rem 0;
+  background: linear-gradient(to right, #968DFA, #A364F5);
+}
+
+.home-third-right img {
+  width: 200px;
+  height: 180px;
+}
+
+.home-third-left h3 {
+  font: normal bold 36px/40px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.264);
+}
+
+/* Events Section */
+.event-main {
+  display: flex;
+  justify-content: center;
+}
+
+.event-left {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  background: linear-gradient(to left, #131313, #3d3c3f);
+}
+
+.event-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-40deg, #7210f0, #5d50f8);
+  color: white;
+}
+
+.event-left img {
+  width: 450px;
+  transition: 0.5s all ease-in-out;
+}
+
+/* .event-left img:hover {
+  margin-bottom: -2rem;
+  transform: scale(1.1);
+} */
+.event-right h3 {
+  font: normal bold 52px/60px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+/* Event Bottom */
+.event-bottom-main {
+  background: linear-gradient(to right, #968DFA, #A364F5);
+  position: relative;
+  padding: 4rem 0;
+}
+
+.event-btm-content {
+  width: 70%;
+  padding: 3rem;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s all ease-in-out;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+.event-btm-content:hover {
+  transform: scale(1.1);
+}
+
+.event-bottom-main p {
+  font: normal bold 36px/45px "Montserrat";
+  color: white;
+  padding-top: 5rem;
+}
+
+.symbol1 {
+  width: 75px;
+  padding-top: 5rem;
+  position: absolute;
+  left: 1rem;
+}
+
+.symbol2 {
+  width: 75px;
+  position: absolute;
+  right: 10rem;
+  bottom: 0;
+}
+
+/* Market Section */
+.market-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.market-left {
+  background: linear-gradient(40deg, #7210f0, #5d50f8);
+  padding: 3rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.market-right {
+  background-color: #242428;
+  width: 100%;
+  display: flex;
+  padding: 3rem 0;
+  justify-content: center;
+  margin: auto;
+}
+
+.market-left h3 {
+  font: normal bold 52px/60px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+.market-right img {
+  width: 430px;
+}
+
+.market-top {
+  position: absolute;
+  width: 480px;
+  height: 450px;
+  bottom: -14rem;
+  box-shadow: none !important;
+  z-index: 1111;
+}
+
+/* Process Section */
+
+.process-main {
+  background: linear-gradient(to left, #5d50f8, #7210f0);
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 10rem;
+}
+
+.process-left img {
+  width: 300px;
+}
+
+.process-right h3 {
+  font: normal bold 26px/1 "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.399);
+}
+
+.process-right p {
+  font: normal 20px/30px "Montserrat";
+  color: white;
+}
+
+.process-two {
+  width: 350px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.symbol3,
+.symbol4 {
+  width: 50px;
+}
+
+.symbol4 {
+  position: absolute;
+  right: 37rem;
+}
+
+/* Social Section */
+.social-main {
+  display: flex;
+  justify-content: space-evenly;
+  transition: 0.5s all ease-in-out;
+}
+
+.social-left {
+  width: 100%;
+  background: linear-gradient(240deg, #131313, #3d3c3f);
+  display: flex;
+  justify-content: right;
+}
+
+.social-right {
+  width: 100%;
+  background: linear-gradient(-40deg, #7210f0, #5d50f8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.social-left-img {
+  height: 450px;
+}
+
+.social-left img {
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.social-right h3 {
+  font: normal bold 52px/60px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+/* Corporate Section */
+.corporate-main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.corporate-left {
+  width: 100%;
+  background: linear-gradient(40deg, #7210f0, #5d50f8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.corporate-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #28282c; */
+  background: linear-gradient(to bottom right, #28282c, #38373A);
+  padding: 4rem 0;
+}
+
+.corporate-left h3 {
+  font: normal 52px/60px "Montserrat";
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+.corporate-right img {
+  width: 280px;
+  transition: 0.5s all ease-in-out;
+}
+
+.corporate-right img:hover {
+  margin-bottom: -2rem;
+  transform: scale(1.2);
+}
+
+/* Design Section */
+.design-main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.design-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to left, #131313, #3d3c3f);
+  position: relative;
+}
+
+
+.tv-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 17rem;
+  width: 120px;
+}
+
+.design-right {
+  width: 100%;
+  background: linear-gradient(-40deg, #7210f0, #5d50f8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.design-right h3 {
+  font: normal bold 52px/60px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.399);
+}
+
+/* Home bottom form */
+/* .home-contact-form {
+  padding-top: 10rem;
+} */
+
+.hands-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.hands {
+  width: 630px;
+  height: 400px;
+}
+
+.contact-title {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+/* Media Querry */
+
+@media (max-width: 1060px) {
+  .home-top {
+    padding: 0rem 10px 10rem 5px;
+    flex-wrap: wrap;
+  }
+
+  .home-top-content {
+    font: normal bold 20px/25px "Montserrat";
+    margin: auto;
+    text-align: center;
+  }
+
+  .home-btm-img {
+    width: 80px;
+    height: 80px;
+    bottom: -3rem;
+    left: 10rem;
+  }
+
+  .home-left img {
+    width: 100%;
+  }
+
+  .home-two-img {
+    width: 100%;
+  }
+
+  .home-sub-div img {
+    width: 50px;
+    height: 25px;
+  }
+
+  .home-sub-title {
+    font: normal bold 25px/1 "Montserrat";
+  }
+
+  .home-third-main {
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .home-third-left h3 {
+    font: normal bold 20px/25px "Montserrat";
+    text-align: center;
+    margin: auto;
+  }
+
+  .home-third-right img {
+    width: 100%;
+  }
+
+  .event-main {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .event-left img {
+    width: 100%;
+  }
+
+  .event-bottom-main {
+    padding: 3rem 0;
+  }
+
+  .event-bottom-main p {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .symbol1 {
+    display: none;
+  }
+
+  .symbol2,
+  .symbol3,
+  .symbol4 {
+    display: none;
+  }
+
+  .market-top {
+    width: 100%;
+    display: none;
+  }
+
+  .market-section {
+    flex-wrap: wrap;
+    /* padding-top: 15rem; */
+  }
+
+  .process-right {
+    padding: 10px;
+  }
+
+  .market-right img {
+    width: 100%;
+  }
+
+  .process-main {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .process-left img {
+    width: 100%;
+  }
+
+  .process-two {
+    width: 100%;
+  }
+
+  .social-main {
+    flex-wrap: wrap;
+  }
+
+  .corporate-main {
+    flex-wrap: wrap;
+  }
+
+  .corporate-right {
+    padding: 25px;
+  }
+
+  .corporate-right img {
+    width: 100%;
+  }
+
+  .design-main {
+    flex-wrap: wrap;
+  }
+
+  .design-left {
+    width: 100%;
+  }
+
+  .hands {
+    width: 100%;
+  }
+}
+
+.home_btm_img {
+  /* background-color: red; */
+  position: absolute;
+  top: 10%;
+}
+
+@media (max-width:768px) {
+  .tv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .market-left h3 {
+    font: normal bold 32px/40px "Montserrat";
+    color: white;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+  }
+
+  .market-right {
+    background-color: #242428;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .market-right img {
+    width: 90%;
+  }
+
+  .event-btm-content {
+    width: 100%;
+    padding: 0rem;
+  }
+
+  .event-btm-content p{
+    font: normal bold 26px/35px "Montserrat";
+  }
+
+  .event-btm-content:hover {
+    transform: scale(1);
+  }
+
+  .social-right h3,.corporate-left h3,.design-right h3,
+  .event-right h3 {
+    font: normal bold 32px/40px "Montserrat";
+    color: white;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+  }
+
+
+  .tv-logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 45%;
+    width: 120px;
+  }
+
+  .event-main {
+    margin-bottom: 0rem;
+}
+}

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.Navbar {
+  background-color: #242428; 
+  padding: 15px 0;
+  height: 90px;
+  width: 100%;
+}
+
+.nav-top-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo {
+  width: 105px;
+}
+
+.nav-items > a {
+  font: normal bold 22px/1 "Montserrat";
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.nav-items > a:hover {
+  opacity: 1;
+  background: linear-gradient(#5d50f8, #7210f0);
+  transition: all 0.5s ease-in-out;
+  color: yellow;
+}
+.Navbar > .nav-items > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.45s;
+}
+.Navbar > .nav-items > a:hover::before {
+  width: 100%;
+}
+.Navbar > .nav-toggle {
+  display: none;
+}
+
+/* Media Querry */
+
+@media (max-width: 1060px) {
+  .nav-items {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #242428;
+    border-radius: 15px;
+    width: 80%;
+    height: 100%;
+    color: white;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+    gap: 2rem;
+    left: 0;
+  }
+  .nav-logo {
+    width: 130px;
+    margin: 10px;
+  }
+  .nav-bottom {
+    display: none;
+  }
+
+  .Navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .nav-items > a {
+    color: white;
+    font: normal normal bold 20px/1 "Montserrat";
+  }
+  .nav-items.open {
+    transform: translateX(0);
+    z-index: 111;
+  }
+  .Navbar > .nav-toggle {
+    display: flex;
+    /* width: 50; */
+    height: 40px;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20% !important;
+    background-color: red;
+  }
+  .nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.45s ease-in-out;
+    right: 20px;
+  }
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+  .nav-toggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    background-color: #ffffff;
+  }
+  .nav-toggle > .bar::after {
+    width: 32px;
+    transform: translateX(8px);
+    background-color: #ffffff;
+  }
+  .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+  .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+  .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+  .nav-top-flex {
+    justify-content: space-between;
+  }
+}

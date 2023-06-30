@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+.about-main {
+  width: 100%;
+}
+
+.about-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 9rem 0;
+  background-color: #242428;
+  /* background: linear-gradient(to right, black, #3C3B3E); */
+  position: relative;
+}
+
+.sub-title {
+  font: normal bold 35px/1 "Montserrat";
+  font-weight: 1000;
+}
+
+.about-left img {
+  width: 650px;
+  height: 180px;
+}
+
+.about-top-content {
+  font: normal bold 36px/44px "Montserrat";
+  color: #ffff;
+}
+
+.abt-div {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+/* .about-btm-img {
+  width: 120px;
+  bottom: 2.5rem;
+  position: absolute;
+} */
+
+
+/* about second section */
+.about-second-section {
+  display: flex;
+  justify-content: center;
+}
+
+.abt-second-left {
+  width: 100%;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #131313, #3d3c3f);
+  color: white;
+}
+
+.about-second-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+  background: linear-gradient(to left, #7210f0, #5d50f8);
+}
+
+.abt-second-div img {
+  height: 42px;
+}
+
+.abt-second-div h3 {
+  font: normal bold 50px/1 "Montserrat";
+  font-weight: 1000;
+}
+
+.abt-second-content {
+  font: normal bold 30px/40px "Montserrat";
+  margin-bottom: 3rem;
+}
+
+.about-second-right img {
+  width: 380px;
+  height: 550px;
+}
+
+.abt-second-btn {
+  background: linear-gradient(#5d50f8, #6f0aef);
+  color: white;
+  font: normal bold 18px/1 "Montserrat";
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+/* About Logo */
+.about_brand_logo {
+  position: absolute;
+  top: 88%;
+}
+
+.about_brand_logo>img {
+  height: 120px;
+  width: 88px;
+}
+
+
+/* About Logo End */
+
+/* Mission Section */
+.mission-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.mission-left {
+  background: linear-gradient(#7210f0, #5d50f8);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-right {
+  background: linear-gradient(#131313, #3d3c3f);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.mission-left img:hover {
+  transform: scale(1.1);
+}
+
+.mission-title {
+  font: normal bold 50px/1 "Montserrat";
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.mission-content {
+  font: normal bold 30px/40px "Montserrat";
+}
+
+/* Contact Section */
+.contact-main {
+  width: 100% !important;
+  background-color: #242428;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.contact-title {
+  text-align: center;
+  /* color: #6f0aef; */
+  background: linear-gradient(to left, #6E0CEE, #6E5CF4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font: normal bold 45px/1 "Montserrat";
+  margin-bottom: 3rem;
+}
+
+.contact-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-bottom: 0;
+}
+
+.contact-input {
+  border: none;
+  width: 380px;
+  border-radius: 7px;
+  height: 45px;
+  margin-bottom: 2rem;
+  outline: none;
+}
+
+.description {
+  height: 200px;
+  border: none;
+  width: 380px;
+  border-radius: 7px;
+  margin-bottom: 3rem;
+}
+
+.contact-sub-title {
+  color: white;
+  font: normal bold 22px/1 "Montserrat";
+}
+
+::placeholder {
+  text-align: center;
+  font: normal bold 18px/1 "Montserrat";
+}
+
+.contact-btn {
+  background: linear-gradient(#5d50f8, #6f0aef);
+  width: 200px;
+  height: 42px;
+  border: none;
+  outline: none;
+  color: white;
+  font: normal bold 15px/1 "Montserrat";
+  float: right;
+  border-radius: 9px;
+  margin-bottom: 4rem;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1);
+}
+
+.card-img {
+  position: absolute;
+  bottom: 2rem;
+  left: 35rem;
+  width: 250px;
+}
+
+/* Media Querry */
+
+@media (max-width: 1060px) {
+
+  .abt-second-div h3 {
+    font: normal bold 30px/1 "Montserrat";
+    font-weight: 1000;
+  }
+
+  .abt-second-content {
+    font: normal bold 20px/30px "Montserrat";
+    margin-bottom: 3rem;
+  }
+
+  .abt-second-btn {
+    background: linear-gradient(#5d50f8, #6f0aef);
+    color: white;
+    font: normal bold 18px/1 "Montserrat";
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+
+
+  .contact-title {
+    font: normal bold 30px/1 "Montserrat";
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-div {
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px;
+  }
+
+  .contact-input {
+    width: 100%;
+    margin-bottom: 1px;
+  }
+
+  .contact-btn {
+    margin-bottom: 2rem;
+  }
+
+  .contact-sub-title {
+    font: normal bold 20px/1 "Montserrat";
+    margin: 10px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .card-img {
+    display: none;
+  }
+
+  .about-top {
+    flex-wrap: wrap;
+    padding: 4rem 10px;
+    gap: 4rem;
+  }
+
+  .about-left img {
+    width: 100%;
+  }
+
+  /* .about-btm-img {
+    left: 8rem;
+    width: 80px;
+    bottom: -3rem;
+  } */
+
+  .about-top-content {
+    font: normal bold 20px/25px "Montserrat";
+  }
+
+  .about-second-section {
+    flex-wrap: wrap;
+  }
+
+  .abt-second-div {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .about-second-right img {
+    width: 60%;
+    height: 350px;
+  }
+
+  .mission-main {
+    flex-direction: column;
+  }
+
+  .mission-title {
+    font: normal bold 20px/1 "Montserrat";
+  }
+
+  .mission-content {
+    font: normal bold 20px/30px "Montserrat";
+  }
+
+  .mission-right {
+    padding: 0;
+  }
+}
+
+
+/* Inter Decaan CSS */
+
+/* .mission_container {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+}
+
+.ms_container_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#7210f0, #5d50f8);
+}
+
+.ms_container_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#131313, #3d3c3f);
+  padding: 8rem 0;
+}
+
+.ms_para {
+  font: normal bold 30px/40px "Montserrat";
+}
+
+
+.ms_title {
+  font: normal bold 50px/1 "Montserrat";
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+@media (max-width:1060px) {
+
+  .mission_container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .ms_container_right,.ms_container_left{
+    padding: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .ms_para {
+    font: normal bold 20px/30px "Montserrat";
+  }
+
+  .ms_title {
+    font: normal bold 30px/1 "Montserrat";
+    font-weight: bolder;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width:500px){
+.mission_container {
+  transform: scale(0.5);
+}
+} */

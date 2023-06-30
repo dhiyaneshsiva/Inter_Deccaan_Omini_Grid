@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.services {
+  width: 350px;
+  height: 240px;
+}
+
+.services-left {
+  position: relative;
+}
+
+
+.services-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 8rem 0;
+  background-color: #242428;
+  position: relative;
+}
+
+.services-top-content {
+  font: normal bold 26px/34px "Montserrat";
+  color: #ffff;
+}
+
+.service-btm-img {
+  position: absolute;
+  bottom: 0;
+  width: 150px;
+}
+
+.ring {
+  position: absolute;
+  bottom: 0;
+  top: 20px;
+  left: 40px;
+  width: 70px;
+}
+
+.square {
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  width: 80px;
+}
+
+.coins {
+  position: absolute;
+  bottom: 15px;
+  right: 40px;
+  width: 70px;
+}
+
+.number {
+  width: 120px;
+  position: absolute;
+  left: 30px;
+  bottom: 63px;
+}
+
+.text {
+  position: absolute;
+  bottom: 9rem;
+  left: 45px;
+  width: 150px;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 6rem;
+  left: 45px;
+  width: 250px;
+}
+
+/* Services second section */
+.services-second-section {
+  display: flex;
+  justify-content: center;
+}
+
+.services-second-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(-40deg, #5d50f8, #7210f0);
+  padding: 3rem 0;
+}
+
+.services-second-right {
+  width: 100%;
+  /* background-color: #242428; */
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.719) 50%, #5d50f8, #7210f0 50%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.services-second-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.services-second-div img {
+  height: 42px;
+}
+
+.services-second-div h3 {
+  font: normal bold 40px/1 "Montserrat";
+  font-weight: 800;
+}
+
+.services-second-content {
+  font: normal bold 20px/32px "Montserrat";
+  margin: 3rem 0;
+  color: white;
+}
+
+.services-second-right img {
+  width: 600px;
+  height: 720px;
+}
+
+.services-second-btn {
+  background: linear-gradient(180deg, #5e50f8d0, #6f0aef);
+  color: white;
+  font: normal bold 17px/1 "Montserrat";
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.5s all ease-in-out;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.395);
+}
+
+.services-second-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Signup Section */
+
+.signup-main {
+  position: relative;
+}
+
+.signup-form {
+  display: flex;
+  gap: 35px;
+}
+
+.signup-top {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 0;
+  background: linear-gradient(to left, #968DFA, #A364F5);
+}
+
+.signup-form button {
+  background: linear-gradient(#5d50f8, #6f0aef);
+  border: none;
+  outline: none;
+  padding: 25px 65px;
+  border-radius: 7px;
+  font: normal bold 18px/1 "montserrat";
+  color: white;
+  transition: 0.5s all ease-in-out;
+}
+
+.signup-form button:hover {
+  transform: scale(1.1);
+}
+
+.signup-form input {
+  padding: 20px 105px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.signup-title {
+  color: white;
+  font: normal bold 24px/1 "Montserrat";
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+.signup-title span {
+  color: #5d50f8;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+.signup-title-two {
+  color: white;
+  font: normal bold 24px/1 "Montserrat";
+  text-align: center;
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.signup-card-div img {
+  width: 300px;
+  height: 110px;
+}
+
+.signup-card-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.signup-card-left {
+  width: 100%;
+  background: linear-gradient(-80deg, #7210f0, #5d50f8);
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-card-right {
+  width: 100%;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(-40deg, #131313, #3d3c3f);
+}
+
+.service-mobile {
+  width: 640px;
+  position: absolute;
+  bottom: -8rem;
+  transition: 0.5s all ease-in-out;
+}
+
+
+.service-mobile:hover {
+  transform: scale(1.1);
+}
+
+
+/* .card-div-two {
+  margin-bottom: 5rem;
+} */
+
+.signup-title-three {
+  color: white;
+  font: normal bold 50px/1 "Montserrat";
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+  text-align: center;
+  padding-bottom: 20rem;
+  padding-top: 6rem;
+  margin-bottom: 0 !important;
+  background: linear-gradient(50deg, #7210f0, #5d50f8);
+}
+
+/* Omnibix Section */
+
+.omnibux-section {
+  position: relative;
+  background: linear-gradient(to bottom, #5d50f8, rgb(218, 216, 216));
+}
+
+.omni-div {
+  display: flex;
+  justify-content: center;
+  background-color: #131313;
+}
+
+.omnibux {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  padding: 5rem 0;
+  /* background: linear-gradient(#5d50f8, #7210f0); */
+  background: linear-gradient(to right, #968DFA, #A364F5);
+  color: white;
+  font: normal bold 38px/48px "Montserrat";
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-shadow: 8px 5px 2px rgba(0, 0, 0, 0.326);
+}
+
+.omni-second-div {
+  display: flex;
+  justify-content: center;
+}
+
+.omni-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#7210f0, #5d50f8);
+}
+
+.omni-right {
+  padding: 3rem 0;
+  width: 100%;
+  background: linear-gradient(#131313, #3d3c3f);
+  display: flex;
+  position: relative;
+}
+
+
+.omni-left-two {
+  width: 100%;
+  background: linear-gradient(#131313, #3d3c3f);
+}
+
+.omni-right-two {
+  padding: 5rem 0;
+  width: 100%;
+  background: linear-gradient(#7210f0, #5d50f8) !important;
+  display: flex;
+  justify-content: center;
+}
+
+.omni-left p {
+  font: normal bold 32px/40px "montserrat";
+  color: white;
+}
+
+.square-two {
+  position: absolute;
+  top: 6rem;
+  left: 15rem;
+  width: 80px;
+}
+
+.ring-two {
+  position: absolute;
+  bottom: 0;
+  top: 70px;
+  left: 40px;
+  width: 70px;
+}
+
+.number-two {
+  width: 120px;
+  position: absolute;
+  left: 30px;
+  bottom: 93px;
+}
+
+.coins-two {
+  position: absolute;
+  left: 16rem;
+  bottom: 4rem;
+}
+
+.omni-left button {
+  border: none;
+  outline: none;
+  background: linear-gradient(#5d50f8, #6f0aef);
+  padding: 12px 20px;
+  border-radius: 7px;
+  font: normal bold 15px/1 "montserrat";
+  color: white;
+  transition: 0.5s all ease-in-out;
+}
+
+.omni-left button:hover {
+  transform: scale(1.1);
+}
+
+
+.omni-right p {
+  font: normal bold 32px/40px "montserrat";
+  color: white;
+}
+
+.flow {
+  position: absolute;
+  top: 0;
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+  top: -18rem;
+  transition: 0.5s all ease-in-out;
+}
+
+.flow:hover {
+  transform: scale(1.1);
+}
+
+.flow-div {
+  display: flex;
+  justify-content: center;
+}
+
+.omni-btm-div {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  top: 2rem;
+  /* margin-top: 1rem; */
+  margin-bottom: 0 !important;
+  position: relative;
+}
+
+.omni-bottom {
+  position: absolute;
+  width: 400px;
+  bottom: -3rem;
+}
+
+/* Ice Breaker Section */
+.breaker-main {
+  background: linear-gradient(to right, #968DFA, #A364F5);
+}
+
+.breaker-top {
+  display: flex;
+  justify-content: center;
+  gap: 16rem;
+  padding: 3rem 0;
+}
+
+.breaker-left h3 {
+  font: normal bold 35px/45px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+}
+
+.breaker-right h3 {
+  font: normal bold 35px/45px "Montserrat";
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.breaker-img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 6rem;
+}
+
+.breaker-title {
+  width: 490px;
+}
+
+.breaker1 {
+  width: 280px;
+  height: 550px;
+  transition: 0.5s all ease-in-out;
+  z-index: 1;
+}
+
+.breaker2 {
+  width: 330px;
+  height: 630px;
+  transition: 0.5s all ease-in-out;
+  z-index: 1;
+}
+
+.breaker3 {
+  width: 280px;
+  height: 550px;
+  transition: 0.5s all ease-in-out;
+  z-index: 1;
+}
+
+.breaker1:hover,
+.breaker2:hover,
+.breaker3:hover {
+  transform: scale(1.1);
+  z-index: 999;
+}
+
+.breaker-bottom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.breaker-bottom p {
+  font: normal bold 21px/25px "Montserrat";
+  color: #28282c;
+}
+
+/* Media Querry*/
+@media (max-width: 1060px) {
+  .services-top {
+    flex-wrap: wrap;
+    padding: 4rem 10px;
+    gap: 5rem;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .services-top-content {
+    font: normal bold 20px/25px "Montserrat";
+  }
+
+  .services-second-section {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .services-second-right img {
+    width: 100%;
+  }
+
+  .signup-form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .signup-title,
+  .signup-title-two,
+  .signup-title-three {
+    text-align: center;
+    font: normal bold 20px/25px "Montserrat";
+    display: none;
+  }
+
+  .signup-card-div {
+    flex-wrap: wrap;
+  }
+
+  .service-mobile {
+    width: 100%;
+  }
+
+  .signup-card-div img {
+    width: 100%;
+    height: 120px;
+  }
+
+  .flow {
+    width: 100%;
+  }
+
+  .omni-second-div {
+    flex-wrap: wrap;
+  }
+
+  .breaker-top {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .breaker1,
+  .breaker2,
+  .breaker3 {
+    width: 100%;
+  }
+
+  .breaker-img-flex {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .breaker-title {
+    width: 100%;
+  }
+
+  .omni-bottom {
+    width: 100%;
+  }
+}
+
+
+/* Dhiyanesh Css */
+
+.brand_logo {
+  position: absolute;
+  top: 88%;
+}
+
+.brand_logo>img {
+  height: 120px;
+  width: 88px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #968DFA, #A364F5);
+}
+
+
+.image>img {
+  position: relative;
+  top: -50px !important;
+  width: 700px;
+  height: 500px;
+  z-index: 999;
+}
+
+.bcg_linear1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.719), black 50%, #7210f0, #5d50f8 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flow_diagram>img {
+  width: 600px;
+  height: 700px;
+  padding-bottom: 50px;
+  z-index: 999;
+}
+
+.bcg_linear1 h1 {
+  font: normal bold 35px/45px "Montserrat";
+  color: white;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.326);
+  padding: 30px 0;
+  z-index: 999;
+}
+
+.vector1,
+.vector2 {
+  width: 100px;
+  height: 8vh;
+  position: absolute;
+}
+
+.vector1 {
+  left: 150px;
+  top: 35px;
+}
+
+.vector2 {
+  right: 50px;
+  bottom: 20px;
+}
+
+
+.scale_2 {
+  transform: scale(1.5);
+}
+
+.red {
+  margin: auto;
+}
+
+@media (max-width:768px) {
+  .image>img {
+    position: relative;
+    top: -50px !important;
+    width: 100%;
+    height: 350px;
+    z-index: 999;
+  }
+.flow_diagram {
+  /* display: none; */
+  width: 100%;
+}
+.flow_diagram img {
+  /* display: none; */
+  width: 100%;
+  height: 60vh;
+}
+
+.breaker-img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding-bottom: 6rem;
+}
+
+.breaker-img-flex img{
+  width: 100%;
+}
+
+
+}
